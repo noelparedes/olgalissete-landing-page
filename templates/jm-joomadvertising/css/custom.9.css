@@ -1,0 +1,104 @@
+#jm-main {
+    padding: 0px
+}
+
+#jm-footer {
+    padding: 30px 0
+}
+
+#jm-main #jm-maincontent {
+    padding-bottom: 0px
+}
+
+#jm-top1 {
+    padding: 10px 0 !important
+}
+
+.slogan {
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-style: italic;
+    font-weight: 400
+}
+
+.telefono {
+    padding-right: 10px;
+    padding-bottom: 0px;
+    float: right;
+    font-style: italic;
+    font-weight: 400
+}
+
+.telefono a {
+    color: #ffffff
+}
+
+#jm-top1 .span6 {
+    height: 25px
+}
+
+.dj-megamenu-override li.dj-up.active a.dj-up_a {
+    background: transparent;
+    border-radius: 2px
+}
+
+.dj-megamenu-override li.dj-up:hover a.dj-up_a {
+    background: transparent;
+    border-radius: 2px
+}
+
+.dj-megamenu-override li.dj-up a.dj-up_a {
+    font-size: 16px
+}
+
+#jm-logo-sitedesc #jm-logo a img {
+    vertical-align: top;
+    width: 115px;
+    height: 80px;
+}
+
+#jm-footer-mod {
+    padding: 30px 0 0px
+}
+
+.dj-megamenu-override .dj-submenu>li>a {
+    color: #474747;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 0 -15px
+}
+
+@media (max-width: 480px) {
+    .telefono a {
+        color: #ffffff;
+        font-weight: 600;
+        height: 25px !important
+    }
+
+    #jm-top1 {
+        padding: 10px 0 !important
+    }
+
+    .telefono {
+        padding-right: 0px;
+        padding-bottom: 0px;
+        float: right;
+        font-style: italic;
+        font-weight: 300
+    }
+
+    .slogan {
+        padding-left: 0px;
+        padding-bottom: 0px;
+        font-style: italic;
+        font-weight: 300
+    }
+
+    #jm-footer {
+        padding: 30px 0 0
+    }
+}

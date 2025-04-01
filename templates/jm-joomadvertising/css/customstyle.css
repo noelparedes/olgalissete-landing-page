@@ -1,0 +1,19 @@
+/* #jm-logo-sitedesc #jm-logo a img {
+    vertical-align: top;
+    width: 115px;
+    height: 80px;
+} */
+.align-footer {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add space between logo and text */
+}
+
+.align-footer .span3 img {
+    max-width: 100%; /* Ensure the logo scales properly */
+    height: auto;
+}
+
+.align-footer .span9 {
+    text-align: left; /* Align text to the left */
+}
